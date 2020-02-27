@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "FunctionalTesting" >
+
+	<listeners>
+		<listener class-name ="Listener.TestListener"/>
+	</listeners>
+	
+	<test name = "ChromeBrowser">
+   	<parameter name="browser" value="Chrome" />
+      	<classes>
+      	   <class name = "com.accordion.testcases.TC01verifyDefaultMessageOnContentAdmin" />
+<!--       	   <class name = "com.accordion.testcases.TC03VerfiyMenu" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC04VerfiyHelpWizard" /> -->
+<!--     	   <class name = "com.accordion.testcases.TC05VerfiyWizard" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC06VerifyWizardTabs" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC14ManageTitleCheckDefaultValueNumberOfTopicToShow" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC42EditCheckMessage" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC54DeleteCheckMessage" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC61ReOrderCheckMessage" /> -->
+<!--            <class name = "com.accordion.testcases.TC07VerifyWizardCloseMark" /> -->
+<!--            <class name = "com.accordion.testcases.TC09VerifyManageTitleCloseButton" /> -->
+<!-- 	       <class name = "com.accordion.testcases.TC12ManageTitleCheckTitleBlank" /> -->
+<!--  	       <class name = "com.accordion.testcases.TC13CheckTitlePreviewWithNormalUser" />   -->
+<!-- 		   <class name = "com.accordion.testcases.TC11ManageTitleChangedTitleName" /> 	 -->
+<!--        	   <class name = "com.accordion.testcases.TC15ManageTitleCheckOptionInNumberOfTopicToShowDropDown" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC17ManageTitleCheckSaveButtonFunctionality" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC18ManageTitleCheckCloseButtonFUnctionality" /> -->
+       	   
+<!--        	   <class name = "com.accordion.testcases.TC20AddCheckCloseButtonFunctionality" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC21AddCheckValidationMessageNumberOfTopicsToAdd" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC22AddCheckNumberOfTopicsToAddWithZero" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC25AddCheckFunctionalityOfNextButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC27AddCheckValidationMsgTopicTitle" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC31AddCheckValidationMsgTopicDescription" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC33AddCheckFunctionalityOfCancelButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC34AddCheckFunctionalityOfSaveContinueButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC36AddCheckNoOfTopicToBeAdded" /> -->
+       	   <class name = "com.accordion.testcases.TC37AddCheckSavedDataOnOtherTabsAndPreview" />
+<!--        	   <class name = "com.accordion.testcases.TC16ManageTitleCheckValueOnPreviewWhen10SelectedInNumberOfTopicToShow" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC76SocialUpdateCheckSocialUpdatestabUnderWizard" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC77SOcialUpdatecheckSocialUpdatetabFields" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC78SocialUpdateCheckDefaultFieldValues" /> -->
+<!-- 		   class name = "com.accordion.testcases.TC81SocialUpdateCommentWizardFromPreview" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC43EditCheckFunctionalityOfCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC46EditCheckEditLinkContent" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC47EditCheckFunctionalityOfDisableCheckBoxDefault" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC48EditCheckFunctionalityOfDisableCheckBoxChecked" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC49EditCheckFunctionalityOfDisableCheckBoxUncheck" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC50EditCheckFunctionalityOfCancelButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC51EditCheckUpdationMessage" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC52EditCheckValidationMessageOnClickOfUpdateButtonOnBlank" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC62ReOrderCheckFunctionalityOfCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC65ReOrderCheckSaveWithItemSorting" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC68ChangeColorCheckCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC69ChangeColorCheckColorPicker" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC70ChangeColorCheckHeaderBGColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC71ChangeColorCheckHeaderFontColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC72ChangeColorCheckContentBGColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC73ChangeColorCheckContentFontColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC75CheckPreviewOfTheData" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC55DeleteCheckFunctionalityOfCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC60DeleteCheckStatusOfRecordAfterClickOnCancelButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC59DeleteCheckStatusRecordAfterDeletion" /> -->
+   		</classes>
+   	</test>
+   	
+<!--    	<test name = "EdgeBrowser"> -->
+<!--    	<parameter name="browser" value="Edge" /> -->
+<!--       	<classes> -->
+<!--       	   Web part Basic Check & ManageTitle tab   -->
+<!--       	   <class name = "com.accordion.testcases.TC01verifyDefaultMessageOnContentAdmin" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC03VerfiyMenu" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC04VerfiyHelpWizard" /> -->
+<!--     	   <class name = "com.accordion.testcases.TC05VerfiyWizard" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC06VerifyWizardTabs" /> -->
+
+<!--    		</classes> -->
+<!--    	</test>	 -->
+   	
+<!--  	<test name = "IEBrowser"> -->
+<!--     	<parameter name="browser" value="IE" /> -->
+<!--       	<classes> -->
+<!--       	   <class name = "com.accordion.testcases.TC01verifyDefaultMessageOnContentAdmin" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC03VerfiyMenu" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC04VerfiyHelpWizard" /> -->
+<!--     	   <class name = "com.accordion.testcases.TC05VerfiyWizard" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC06VerifyWizardTabs" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC14ManageTitleCheckDefaultValueNumberOfTopicToShow" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC42EditCheckMessage" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC54DeleteCheckMessage" /> -->
+<!--       	   <class name = "com.accordion.testcases.TC61ReOrderCheckMessage" /> -->
+<!--            <class name = "com.accordion.testcases.TC07VerifyWizardCloseMark" /> -->
+<!--            <class name = "com.accordion.testcases.TC09VerifyManageTitleCloseButton" /> -->
+<!-- 	       <class name = "com.accordion.testcases.TC12ManageTitleCheckTitleBlank" /> -->
+<!--   	       <class name = "com.accordion.testcases.TC13CheckTitlePreviewWithNormalUser" />   -->
+<!-- 		   <class name = "com.accordion.testcases.TC11ManageTitleChangedTitleName" />  -->
+       	   
+<!--        	   <class name = "com.accordion.testcases.TC15ManageTitleCheckOptionInNumberOfTopicToShowDropDown" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC17ManageTitleCheckSaveButtonFunctionality" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC18ManageTitleCheckCloseButtonFUnctionality" /> -->
+       	   
+<!--        	   <class name = "com.accordion.testcases.TC20AddCheckCloseButtonFunctionality" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC21AddCheckValidationMessageNumberOfTopicsToAdd" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC22AddCheckNumberOfTopicsToAddWithZero" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC25AddCheckFunctionalityOfNextButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC27AddCheckValidationMsgTopicTitle" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC31AddCheckValidationMsgTopicDescription" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC33AddCheckFunctionalityOfCancelButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC34AddCheckFunctionalityOfSaveContinueButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC36AddCheckNoOfTopicToBeAdded" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC37AddCheckSavedDataOnOtherTabsAndPreview" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC16ManageTitleCheckValueOnPreviewWhen10SelectedInNumberOfTopicToShow" /> -->
+
+<!-- 		   <class name = "com.accordion.testcases.TC76SocialUpdateCheckSocialUpdatestabUnderWizard" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC77SOcialUpdatecheckSocialUpdatetabFields" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC78SocialUpdateCheckDefaultFieldValues" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC79SocialUpdateCheckRatingExperiencesoptiondropdown" /> -->
+<!-- 		   <class name = "com.accordion.testcases.TC80SocialUpdateCheckCommentCheckboxCheck" /> -->
+
+<!--        	   <class name = "com.accordion.testcases.TC43EditCheckFunctionalityOfCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC46EditCheckEditLinkContent" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC47EditCheckFunctionalityOfDisableCheckBoxDefault" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC48EditCheckFunctionalityOfDisableCheckBoxChecked" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC49EditCheckFunctionalityOfDisableCheckBoxUncheck" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC50EditCheckFunctionalityOfCancelButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC51EditCheckUpdationMessage" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC52EditCheckValidationMessageOnClickOfUpdateButtonOnBlank" /> -->
+
+<!--        	   <class name = "com.accordion.testcases.TC62ReOrderCheckFunctionalityOfCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC65ReOrderCheckSaveWithItemSorting" /> -->
+
+<!--        	   <class name = "com.accordion.testcases.TC68ChangeColorCheckCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC69ChangeColorCheckColorPicker" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC70ChangeColorCheckHeaderBGColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC71ChangeColorCheckHeaderFontColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC72ChangeColorCheckContentBGColor" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC73ChangeColorCheckContentFontColor" /> -->
+
+<!--        	   <class name = "com.accordion.testcases.TC75CheckPreviewOfTheData" /> -->
+ 
+<!--        	   <class name = "com.accordion.testcases.TC55DeleteCheckFunctionalityOfCloseButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC60DeleteCheckStatusOfRecordAfterClickOnCancelButton" /> -->
+<!--        	   <class name = "com.accordion.testcases.TC59DeleteCheckStatusRecordAfterDeletion" /> -->
+
+<!--    	</classes> -->
+<!--    </test>	 -->
+</suite>
+

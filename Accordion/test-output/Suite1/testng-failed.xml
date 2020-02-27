@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="Listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <classes>
+      <class name="com.accordion.testcases.TC03VerfiyMenu">
+        <methods>
+          <include name="verifyMenuTC03"/>
+        </methods>
+      </class> <!-- com.accordion.testcases.TC03VerfiyMenu -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

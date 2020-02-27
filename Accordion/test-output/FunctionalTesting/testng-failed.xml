@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FunctionalTesting]">
+  <listeners>
+    <listener class-name="Listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.accordion.testcases.TC37AddCheckSavedDataOnOtherTabsAndPreview">
+        <methods>
+          <include name="AddCheckSavedDataOnOtherTabsAndPreviewTC37"/>
+        </methods>
+      </class> <!-- com.accordion.testcases.TC37AddCheckSavedDataOnOtherTabsAndPreview -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [FunctionalTesting] -->
